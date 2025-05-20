@@ -11,7 +11,10 @@ function TodoInput({eventHandler}) {
     }
   return (
     <div>
-      <input onChange={(e)=>setInput(e.target.value)} type="text" placeholder='Enter Task'/>
+      <input
+        value={input}
+        onChange={(e)=>setInput(e.target.value)} 
+        type="text" placeholder='Enter Task'/>
       <button onClick={addTask}>Add</button>
     </div>
   )
