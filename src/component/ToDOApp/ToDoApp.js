@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import TodoList from '../TodoList/TodoList'
 import TodoInput from '../TodoInput/TodoInput';
 function ToDoApp() {
-    let initialTask = ['Cricket', 'Badminton', 'Movie']
+    let initialTask = []
     const [tasks, setTasks] = useState(initialTask);
 
     function increasePriority(taskName){
