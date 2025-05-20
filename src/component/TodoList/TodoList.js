@@ -6,7 +6,7 @@ function TodoList({tasks, increasePriority, decreasePriority, deleteTask}) {
     <div>
       <ul>
         {
-          tasks.map((task, indx)=> 
+          tasks.map((task, indx)=>
           <ToDoItems 
             key={indx} 
             taskName={task}

@@ -42,7 +42,6 @@ function ToDoApp() {
         <div>
           {
             <TodoInput 
-            tasks={tasks}
             eventHandler={eventHandler}
             />
           }
